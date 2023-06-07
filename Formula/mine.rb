@@ -1,14 +1,14 @@
 class Mine < Formula
   desc "CLI for color-coding project windows, enhancing workspace organization"
   homepage "https://github.com/joelzanden/mine"
-  url "https://github.com/joelzanden/mine/archive/refs/tags/v0.1.19.tar.gz"
-  sha256 "da488069d39339868cc00428b517cb96fb8c7d339b26522d5859e33373134d42"
+  url "https://github.com/joelzanden/mine/archive/refs/tags/v0.1.23.tar.gz"
+  sha256 "18a4d647f3db93aa61035a94ca52669fe65354f015d1e8419f2068112fbb19b9"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/joelzanden/mine/releases/download/v0.1.19"
-    sha256 catalina:      "97b6e3f205f17c788b870bd30849ede9de67fb3eb68f7529e33f884a30049359"
-    sha256 x86_64_linux:  "f2e26d2f9372db01c6f022c69799f9ea05fcafa72c96d26f82e7ae975c770e50"
+    root_url "https://github.com/joelzanden/mine/releases/download/v0.1.23"
+    sha256 monterey:      "6ad612bd660302c079b680c97a329a41e88e31640eb0772890040463bea73966"
+    sha256 x86_64_linux:  "65dd7a42bb4ac98e602e4f86c57cad78be57802e42204e344e2345ccebb44863"
   end
 
   depends_on "rust" => :build
@@ -18,6 +18,6 @@ class Mine < Formula
   end
 
   test do
-    assert_match "0.1.19", shell_output("#{bin}/mine --version")
+    assert_match "0.1.23", shell_output("#{bin}/mine --version")
   end
 end
