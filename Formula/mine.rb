@@ -7,8 +7,8 @@ class Mine < Formula
 
   bottle do
     root_url "https://github.com/joelzanden/mine/releases/download/v0.1.23"
-    sha256 monterey:      "6ad612bd660302c079b680c97a329a41e88e31640eb0772890040463bea73966"
-    sha256 x86_64_linux:  "65dd7a42bb4ac98e602e4f86c57cad78be57802e42204e344e2345ccebb44863"
+    sha256 x86_64_monterey: "6ad612bd660302c079b680c97a329a41e88e31640eb0772890040463bea73966"
+    sha256 x86_64_linux:    "65dd7a42bb4ac98e602e4f86c57cad78be57802e42204e344e2345ccebb44863"
   end
 
   depends_on "rust" => :build
