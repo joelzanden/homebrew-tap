@@ -1,14 +1,14 @@
 class Mine < Formula
   desc "CLI for color-coding project windows, enhancing workspace organization"
   homepage "https://github.com/joelzanden/mine"
-  url "https://github.com/joelzanden/mine/archive/refs/tags/v0.1.23.tar.gz"
-  sha256 "18a4d647f3db93aa61035a94ca52669fe65354f015d1e8419f2068112fbb19b9"
+  url "https://github.com/joelzanden/mine/archive/refs/tags/v0.1.24.tar.gz"
+  sha256 "52590d4f2395f134c463862f3bfc57cea310c41d3082d17964f9df16b8d27230"
   license "MIT"
 
   bottle do
     root_url "https://github.com/joelzanden/mine/releases/download/v0.1.23"
-    sha256 x86_64_monterey: "6ad612bd660302c079b680c97a329a41e88e31640eb0772890040463bea73966"
-    sha256 x86_64_linux:    "65dd7a42bb4ac98e602e4f86c57cad78be57802e42204e344e2345ccebb44863"
+    sha256 monterey:     "f9dffeb28fa3ff121674f33a9356679d9c2616334833370ffb453252bee2a198"
+    sha256 x86_64_linux: "8b1c2c0e278cb726bf51c119c74b8ba1b436520a190baeb8f1de72398b9fb2ef"
   end
 
   depends_on "rust" => :build
