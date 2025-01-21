@@ -1,9 +1,9 @@
 class Rebun < Formula
-  desc "Like bun run but with delayed restart after crash or completion"
-  version "0.1.0"
+  desc "Like bun run but with delayed restart after crash"
+  version "0.4.0"
   homepage "https://github.com/joelzanden/rebun"
-  url "https://github.com/joelzanden/rebun/releases/download/v0.1.0/rebun-0.1.0.tar.gz"
-  sha256 "2667afd3aa47f4ff61cf7b2620e5a16153b23ed0f9466dc6b479c1a9dabf6326"
+  url "https://github.com/joelzanden/rebun/releases/download/v0.4.0/rebun-0.4.0.tar.gz"
+  sha256 "13f61468931f95d51f0e9ded161a0ea3523f05b30e98346edac22e627544e030"
   license "MIT"
 
   depends_on "bun"
